@@ -157,10 +157,10 @@ mtlLoader.load('resources/models/Pikachu/materials.mtl', (mtl) => {
 });
 
 // Preload GRASS model
-mtlLoader.load('resources/models/grass/materials.mtl', (mtl) => {
+mtlLoader.load('resources/models/Grass/materials.mtl', (mtl) => {
   mtl.preload();
   objLoader.setMaterials(mtl);
-  objLoader.load('resources/models/grass/model.obj', (obj) => {
+  objLoader.load('resources/models/Grass/model.obj', (obj) => {
     grassClumpModel = obj;
   });
 });
